@@ -1,4 +1,4 @@
-regexJumlah = /^[0-9]{1}/;
+regexJumlah = /^[0-9]{1,3}/;
 regexSisi = /[0-9]+$/;
 
 function getJumlahDadu(){
