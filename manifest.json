@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "DiceRoller",
+	"short_name": "DR",
+	"version": "1.0.0",
+	"description": "For fast dice rolling",
+	"author": "diptherium",
+	"icons":{
+		"16": "logo16.png",
+		"32": "logo32.png",
+		"48": "logo48.png",
+		"128": "logo128.png"
+	},
+	"action":{
+		"default_popup": "main.html",
+		"default_title": "DiceRoller"
+	}
+}
