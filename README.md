@@ -10,4 +10,16 @@ It's used to roll dice(s) with an input like "1d6" or "5d10".
 * The first digit is for the number of dice(s) rolled,
 * The last digit specifying how many sides the dices are.
 
+---
+To use
+---
+
+1. Download the package, unpack it
+2. Click settings on the chrome-based browser
+3. Go to extension
+4. Click the "Load unpacked" button to upload it
+5. Don't forget to pin it for ease of access
+
+---
+
 ###### *&copy; 2022 [dipo oktama](https://github.com/dipooktama)*
