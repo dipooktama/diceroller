@@ -1,13 +1,9 @@
 button{
 	background-color: #303030;
 	color: #efefef;
-	width: 40%;
+	width: 50%;
 }
 
 #cobaRoll{
-    margin-right: 2px;
-}
-
-#batchRoll{
-    margin-left: 2px;
+    float: left;
 }
