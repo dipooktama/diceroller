@@ -55,6 +55,7 @@ function batchRoll(){
 
     // document.getElementById('hasilBatchRoll').innerHTML = batch;
     const resBatch = document.querySelector('#hasilBatchRoll');
+    resBatch.innerHTML = null;
     batch.forEach(isiBatch => {
         const baris = document.createElement('p');
         baris.innerText = isiBatch;
