@@ -26,7 +26,7 @@ function singleRoll(){
     }
     const sisiDadu = parseInt(parseSisiDadu[0]);
     const hasilRollnya =roller(jumlahDadu, sisiDadu);
-    document.getElementById("hasilSingleRoll").innerHTML = hasilRollnya;
+    document.getElementById("hasilSingleRoll").innerText = hasilRollnya;
     const totalRoll = hasilRollnya.reduce((partialSum, a) => partialSum + a, 0);
     document.getElementById("totalRoll").innerHTML = totalRoll;
 }
