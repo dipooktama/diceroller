@@ -1,11 +1,13 @@
 button{
 	background-color: #303030;
 	color: #efefef;
-	width: 100%;
+	width: 40%;
 }
-input{
-	
+
+#cobaRoll{
+    margin-right: 2px;
 }
-input, button{
-	
+
+#batchRoll{
+    margin-left: 2px;
 }
