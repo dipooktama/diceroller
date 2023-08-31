@@ -1,6 +1,6 @@
 Dice Roller
 =======
-###### *version 1.1.0*
+###### *version 1.2.0*
 
 ![](https://ik.imagekit.io/8i5ytn4vl/logo128_0HT58Mbm8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662961545945)
 
@@ -26,6 +26,9 @@ Update log
 
 ###### [v 1.1.0]
 * Added Batch Rolling feature.
+
+###### [v 1.2.0]
+* Added Advantage/Disadvantage Rolling feature.
 
 ---
 ###### *&copy; 2022 [dipo oktama](https://github.com/dipooktama)*

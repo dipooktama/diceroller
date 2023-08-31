@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "DiceRoller",
 	"short_name": "DR",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"description": "For fast dice rolling",
 	"author": "diptherium",
 	"icons":{

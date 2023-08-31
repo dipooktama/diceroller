@@ -1,7 +1,8 @@
 button{
 	background-color: #303030;
 	color: #efefef;
-	width: 50%;
+	width: 24%;
+    padding: 0.5rem 0px;
 }
 
 #cobaRoll{

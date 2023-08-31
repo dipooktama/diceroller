@@ -67,7 +67,40 @@ function batchRoll(){
     document.getElementById("totalRoll").innerHTML = totalRoll;
 }
 
+function advDisadvRoll(isAdv) {
+    let sortedRoll = [];
+    const masukan = getJumlahDadu();
+    const jumlahDadu = 2; //jumlah dadu selalu dua buat advantage/disadvantage roll
+    const parseSisiDadu = regexSisi.exec(masukan);
+    const sisiDadu = parseInt(parseSisiDadu[0]);
+
+    const hasilRollnya = roller(jumlahDadu, sisiDadu);
+    // tampilin hasil rollnya (dari 2 dadu)
+    document.getElementById("hasilSingleRoll").innerText = hasilRollnya;
+    // sort dadunya, ascending.
+    if (hasilRollnya[0] > hasilRollnya[1]) {
+        sortedRoll[0] = hasilRollnya[1];
+        sortedRoll[1] = hasilRollnya[0];
+    } else {
+        sortedRoll = hasilRollnya;
+    }
+    // ambil dadu sesuai adv (ambil gede) ato disadv (ambil kecil)
+    document.getElementById("hasilRollAdvDisadv").innerText = isAdv ? sortedRoll[1] : sortedRoll[0];
+}
+
+function advantageRoll(){
+    const isAdv = true;
+    advDisadvRoll(isAdv);
+}
+
+function disadvantageRoll(){
+    const isAdv = false;
+    advDisadvRoll(isAdv);
+}
+
 document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('cobaRoll').addEventListener('click', singleRoll, false);
     document.getElementById('batchRoll').addEventListener('click', batchRoll, false);
+    document.getElementById('advRoll').addEventListener('click', advantageRoll, false);
+    document.getElementById('disadvRoll').addEventListener('click', disadvantageRoll, false);
 }, false)
