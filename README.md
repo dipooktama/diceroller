@@ -21,6 +21,12 @@ To use
 5. Don't forget to pin it for ease of access
 
 ---
+To Do?
+---
+
+* make the advantage and the disadvantage roll to be included in single roll and batch roll?
+
+---
 Update log
 ---
 
